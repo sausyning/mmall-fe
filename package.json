@@ -1,0 +1,36 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.0",
+  "description": "mmall前端代码",
+  "main": "index.js",
+  "scripts": {
+    //windows配置
+    "dev" : "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
+    "dist" : "set WEBPACK_ENV=dev=online && webpack -p"
+    //mac配置
+    //"dev" : "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
+    //"dist" : "WEBPACK_ENV=dev=online webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LLIIjie/mmall-fe.git"
+  },
+  "author": "lijie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LLIIjie/mmall-fe/issues"
+  },
+  "homepage": "https://github.com/LLIIjie/mmall-fe#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {}
+}
