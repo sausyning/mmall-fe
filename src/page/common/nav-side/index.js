@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-09-23 16:06:05
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-23 16:35:45
+* @Last Modified time: 2018-10-31 14:47:03
 */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -14,7 +14,7 @@ var navSide = {
 		navList : [
 			{name : 'user-center', desc : '个人中心', href : './user-center.html'},
 			{name : 'order-list', desc : '我的订单', href : './order-list.html'},
-			{name : 'pass-update', desc : '修改密码', href : './pass-update.html'},
+			{name : 'user-pass-update', desc : '修改密码', href : './user-pass-update.html'},
 			{name : 'about', desc : '关于mmall', href : 'about.html'}
 		]
 	},

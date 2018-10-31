@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-09-09 20:22:08
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-23 15:56:58
+* @Last Modified time: 2018-10-19 16:33:56
 */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -22,11 +22,11 @@ var nav = {
 			_mm.doLogin();
 		});
 		//注册点击事件
-		$('js-register').click(function(){
-			window.location.href = './register.html';
+		$('.js-register').click(function(){
+			window.location.href = './user-register.html';
 		});
 		//退出点击事件
-		$('logout').click(function(){
+		$('.js-logout').click(function(){
 			_user.logout(function(res){
 				window.location.reload();
 			},function(errMsg){

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-09-22 14:13:53
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-22 14:58:33
+* @Last Modified time: 2018-10-30 14:43:56
 */
 /*通用头部导航*/
 .header .logo{
@@ -13,6 +13,7 @@
 	font-size: 36px;
 	color: #c60023;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 .header .search-con{
@@ -31,4 +32,15 @@
 	position: absolute;
 	height: 44px;
 	width: 80px;
+}
+
+/*面包屑导航*/
+.crumb{
+	margin-bottom: 15px;
+	height: 50px;
+	line-height: 50px;
+	background: #eee;
+	color: #888;
+	font-size: 14px;
+	border-top: 2px solid #c60023;
 }
