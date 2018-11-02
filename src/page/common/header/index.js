@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-09-22 14:13:42
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-22 15:00:57
+* @Last Modified time: 2018-11-01 15:34:43
 */
 require('./index.css');
 var _mm = require('util/mm.js');
@@ -10,6 +10,7 @@ var _mm = require('util/mm.js');
 var header = {
 	init : function(){
 		this.bindEvent();
+		this.onload();
 	},
 	onload : function(){
 		var keyword = _mm.getUrlParam('keyword');
