@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LLIIjie/mmall-fe.git"
+    "url": "git+https://github.com/sausyning/mmall-fe.git"
   },
-  "author": "lijie",
+  "author": "saucyn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LLIIjie/mmall-fe/issues"
+    "url": "https://github.com/sausyning/mmall-fe/issues"
   },
-  "homepage": "https://github.com/LLIIjie/mmall-fe#readme",
+  "homepage": "https://github.com/sausyning/mmall-fe#readme",
   "devDependencies": {
     "css-loader": "^1.0.0",
     "extract-text-webpack-plugin": "^1.0.1",
