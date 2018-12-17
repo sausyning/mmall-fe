@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-12-13 12:41:53
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-12-13 15:12:50
+* @Last Modified time: 2018-12-17 17:31:15
 */
 require('./index.css');
 require('page/common/nav/index.js');
@@ -51,7 +51,7 @@ var page = {
 				pages : res.pages
 			});
 		},function(errMsg){
-			$listCon.html('<p class="err-tip">加载订单失败,请刷新后重试</p>')
+			$listCon.html('<p class="err-tip">加载订单失败,请刷新后重试</p>');
 		});
 	},
 	// 加载分页信息

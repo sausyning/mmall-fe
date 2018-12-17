@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-12-13 15:17:23
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-12-13 17:52:18
+* @Last Modified time: 2018-12-17 17:43:27
 */
 require('./index.css');
 require('page/common/nav/index.js');
@@ -53,7 +53,7 @@ var page = {
 			orderDetailHtml = _mm.renderHtml(templateIndex,res);
 			$content.html(orderDetailHtml);
 		},function(errMsg){
-			$content.html('<p class="err-tip">' + errMsg + '</p>')
+			$content.html('<p class="err-tip">' + errMsg + '</p>');
 		});
 	},
 	//数据适配
